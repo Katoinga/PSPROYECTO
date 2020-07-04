@@ -19,7 +19,8 @@ SOURCES += \
     login.cpp \
     loginUser.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    regpasajero.cpp
 
 HEADERS += \
     ../../../Descargas/PSPROYECTO-master/PSPROYECTO-master/Cabezeras/Aerolinea.h \
@@ -48,12 +49,16 @@ HEADERS += \
     Vuelo.h \
     login.h \
     loginUser.h \
-    mainwindow.h
+    mainwindow.h \
+    regpasajero.h
 
 FORMS += \
+    Ventas1.ui \
+    Ventas2.ui \
     Ventas3.ui \
     loginUser.ui \
-    mainwindow.ui
+    mainwindow.ui \
+    regpasajero.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
